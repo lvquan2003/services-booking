@@ -19,16 +19,16 @@ const Categories: CollectionConfig = {
       admin: {
         description: "URL-friendly version of the category name",
       },
-      hooks: {
-        beforeValidate: [
-          ({ data }) => {
-            if (data.name) {
-              return data.name.toLowerCase().replace(/\s+/g, "-")
-            }
-            return ""
-          },
-        ],
-      },
+      // hooks: {
+      //   beforeValidate: [
+      //     ({ data }) => {
+      //       if (data.name) {
+      //         return data.name.toLowerCase().replace(/\s+/g, "-")
+      //       }
+      //       return ""
+      //     },
+      //   ],
+      // },
     },
     {
       name: "description",

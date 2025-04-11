@@ -21,16 +21,16 @@ const Services: CollectionConfig = {
       admin: {
         description: "URL-friendly version of the service name",
       },
-      hooks: {
-        beforeValidate: [
-          ({ data }) => {
-            if (data.name) {
-              return data.name.toLowerCase().replace(/\s+/g, "-")
-            }
-            return ""
-          },
-        ],
-      },
+      // hooks: {
+      //   beforeValidate: [
+      //     ({ data }) => {
+      //       if (data.name) {
+      //         return data.name.toLowerCase().replace(/\s+/g, "-")
+      //       }
+      //       return ""
+      //     },
+      //   ],
+      // },
     },
     {
       name: "category",
