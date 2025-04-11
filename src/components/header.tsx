@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { EyeClosed, Home } from "lucide-react"
+import { EyeClosed } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 
