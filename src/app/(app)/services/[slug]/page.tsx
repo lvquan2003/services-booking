@@ -98,3 +98,14 @@
 //     </div>
 //   )
 // }
+
+import Header from "@/components/header"
+
+export default function ServicePage() {
+  
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+    </div>
+  )
+}
