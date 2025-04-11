@@ -2,7 +2,6 @@ import Image from "next/image"
 import { Calendar, Clock, MapPin } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { Calendar as CalendarComponent } from "@/components/ui/calendar"
 import { Separator } from "@/components/ui/separator"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
@@ -72,7 +71,7 @@ export default function BookingPage() {
               <h2 className="text-xl font-semibold mb-4">Select Date & Time</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <CalendarComponent mode="single" className="rounded-md border" />
+                  {/* <CalendarComponent mode="single" className="rounded-md border" /> */}
                 </div>
                 <div>
                   <h3 className="font-medium mb-3">Available Times</h3>
